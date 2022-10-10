@@ -1,11 +1,11 @@
-﻿using FreeCourse.IdentityServer.Models;
+﻿using IdentityServer.Models;
 using IdentityModel;
 using IdentityServer4.Validation;
 using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace FreeCourse.IdentityServer.Services
+namespace IdentityServer.Services
 {
     public class IdentityResourceOwnerPasswordValidator : IResourceOwnerPasswordValidator
     {

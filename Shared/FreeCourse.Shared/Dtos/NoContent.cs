@@ -1,4 +1,4 @@
-﻿namespace FreeCourse.Shared.Dtos
+﻿namespace Shared.Dtos
 {
     public class NoContent
     {

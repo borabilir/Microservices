@@ -1,11 +1,11 @@
-﻿using FreeCourse.Services.Catalog.Dtos;
-using FreeCourse.Services.Catalog.Services;
-using FreeCourse.Shared.ControllerBases;
+﻿using Services.Catalog.Dtos;
+using Services.Catalog.Services;
+using Shared.ControllerBases;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.Catalog.Controllers
+namespace Services.Catalog.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

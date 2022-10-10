@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace FreeCourse.Shared.Dtos
+namespace Shared.Dtos
 {
     public class Response<T>
     {

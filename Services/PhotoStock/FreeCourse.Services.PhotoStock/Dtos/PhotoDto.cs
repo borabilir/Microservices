@@ -1,4 +1,4 @@
-﻿namespace FreeCourse.Services.PhotoStock.Dtos
+﻿namespace Services.PhotoStock.Dtos
 {
     public class PhotoDto
     {

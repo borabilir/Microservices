@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using FreeCourse.Services.Catalog.Dtos;
-using FreeCourse.Services.Catalog.Models;
+using Services.Catalog.Dtos;
+using Services.Catalog.Models;
 
-namespace FreeCourse.Services.Catalog.Mapping
+namespace Services.Catalog.Mapping
 {
     public class GeneralMapping : Profile
     {

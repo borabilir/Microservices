@@ -1,4 +1,4 @@
-﻿namespace FreeCourse.Services.Catalog.Models
+﻿namespace Services.Catalog.Models
 {
     public class Feature
     {

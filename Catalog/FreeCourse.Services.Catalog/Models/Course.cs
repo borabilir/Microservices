@@ -2,7 +2,7 @@
 using MongoDB.Bson.Serialization.Attributes;
 using System;
 
-namespace FreeCourse.Services.Catalog.Models
+namespace Services.Catalog.Models
 {
     public class Course
     {

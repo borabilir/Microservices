@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace FreeCourse.IdentityServer.Dtos
+namespace IdentityServer.Dtos
 {
     public class SignupDto
     {

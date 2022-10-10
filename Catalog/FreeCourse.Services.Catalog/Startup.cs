@@ -1,5 +1,5 @@
-using FreeCourse.Services.Catalog.Services;
-using FreeCourse.Services.Catalog.Settings;
+using Services.Catalog.Services;
+using Services.Catalog.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -16,7 +16,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.Catalog
+namespace Services.Catalog
 {
     public class Startup
     {
@@ -55,7 +55,7 @@ namespace FreeCourse.Services.Catalog
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "FreeCourse.Services.Catalog", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Services.Catalog", Version = "v1" });
             });
 
 
@@ -68,7 +68,7 @@ namespace FreeCourse.Services.Catalog
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FreeCourse.Services.Catalog v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Services.Catalog v1"));
             }
 
             app.UseRouting();

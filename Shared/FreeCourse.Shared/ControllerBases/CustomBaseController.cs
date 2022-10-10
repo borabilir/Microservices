@@ -1,10 +1,10 @@
-﻿using FreeCourse.Shared.Dtos;
+﻿using Shared.Dtos;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace FreeCourse.Shared.ControllerBases
+namespace Shared.ControllerBases
 {
     public class CustomBaseController : ControllerBase
     {

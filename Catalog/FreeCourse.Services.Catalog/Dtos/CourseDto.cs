@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 
-namespace FreeCourse.Services.Catalog.Dtos
+namespace Services.Catalog.Dtos
 {
     public class CourseDto
     {

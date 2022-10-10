@@ -1,4 +1,4 @@
-﻿namespace FreeCourse.Services.Catalog.Settings
+﻿namespace Services.Catalog.Settings
 {
     public interface IDatabaseSettings
     {

@@ -1,10 +1,10 @@
-﻿using FreeCourse.Services.Catalog.Dtos;
-using FreeCourse.Services.Catalog.Models;
-using FreeCourse.Shared.Dtos;
+﻿using Services.Catalog.Dtos;
+using Services.Catalog.Models;
+using Shared.Dtos;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.Catalog.Services
+namespace Services.Catalog.Services
 {
     public interface ICategoryService
     {

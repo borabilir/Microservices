@@ -1,6 +1,6 @@
-﻿using FreeCourse.IdentityServer.Dtos;
-using FreeCourse.IdentityServer.Models;
-using FreeCourse.Shared.Dtos;
+﻿using IdentityServer.Dtos;
+using IdentityServer.Models;
+using Shared.Dtos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using static IdentityServer4.IdentityServerConstants;
 
-namespace FreeCourse.IdentityServer.Controllers
+namespace IdentityServer.Controllers
 {
     [Authorize(LocalApi.PolicyName)]
     [Route("api/[controller]/[action]")]

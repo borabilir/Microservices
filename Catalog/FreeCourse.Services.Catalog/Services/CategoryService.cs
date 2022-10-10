@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using FreeCourse.Services.Catalog.Dtos;
-using FreeCourse.Services.Catalog.Models;
-using FreeCourse.Services.Catalog.Settings;
-using FreeCourse.Shared.Dtos;
+using Services.Catalog.Dtos;
+using Services.Catalog.Models;
+using Services.Catalog.Settings;
+using Shared.Dtos;
 using MongoDB.Driver;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.Catalog.Services
+namespace Services.Catalog.Services
 {
     public class CategoryService : ICategoryService
     {

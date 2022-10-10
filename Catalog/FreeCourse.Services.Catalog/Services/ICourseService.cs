@@ -1,9 +1,9 @@
-﻿using FreeCourse.Services.Catalog.Dtos;
-using FreeCourse.Shared.Dtos;
+﻿using Services.Catalog.Dtos;
+using Shared.Dtos;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.Catalog.Services
+namespace Services.Catalog.Services
 {
     public interface ICourseService
     {

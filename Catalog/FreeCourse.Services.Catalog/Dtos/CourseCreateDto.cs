@@ -1,4 +1,4 @@
-﻿namespace FreeCourse.Services.Catalog.Dtos
+﻿namespace Services.Catalog.Dtos
 {
     public class CourseCreateDto
     {

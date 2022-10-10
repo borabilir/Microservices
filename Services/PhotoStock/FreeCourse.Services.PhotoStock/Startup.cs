@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.PhotoStock
+namespace Services.PhotoStock
 {
     public class Startup
     {
@@ -42,7 +42,7 @@ namespace FreeCourse.Services.PhotoStock
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "FreeCourse.Services.PhotoStock", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Services.PhotoStock", Version = "v1" });
             });
         }
 
@@ -53,7 +53,7 @@ namespace FreeCourse.Services.PhotoStock
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FreeCourse.Services.PhotoStock v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Services.PhotoStock v1"));
             }
 
             app.UseStaticFiles();

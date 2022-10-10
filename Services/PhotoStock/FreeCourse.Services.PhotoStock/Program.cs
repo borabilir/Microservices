@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.PhotoStock
+namespace Services.PhotoStock
 {
     public class Program
     {

@@ -1,13 +1,13 @@
-﻿using FreeCourse.Services.PhotoStock.Dtos;
-using FreeCourse.Shared.ControllerBases;
-using FreeCourse.Shared.Dtos;
+﻿using Services.PhotoStock.Dtos;
+using Shared.ControllerBases;
+using Shared.Dtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.PhotoStock.Controllers
+namespace Services.PhotoStock.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

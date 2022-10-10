@@ -7,7 +7,7 @@ using IdentityServer4.Models;
 using System;
 using System.Collections.Generic;
 
-namespace FreeCourse.IdentityServer
+namespace IdentityServer
 {
     public static class Config
     {
@@ -20,7 +20,7 @@ namespace FreeCourse.IdentityServer
             };
 
 
-        //Kullanıcı ile iligli hangi bilgilere erişilebilir
+        //Kullanıcı ile ilgili hangi bilgilere erişilebilir
         public static IEnumerable<IdentityResource> IdentityResources =>
             new IdentityResource[]
             {
