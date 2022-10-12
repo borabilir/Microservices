@@ -6,4 +6,5 @@ Services
 	-orderAPI => 5015
 	-fakePaymentAPI => 5016
 
+gateway => 5000
 identityServer => 5001
